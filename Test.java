@@ -12,7 +12,7 @@ public class Test {
 
             // the path of your tess data folder
             // inside the extracted file
-            String text = tesseract.doOCR(new File("hehe.png"));
+            String text = tesseract.doOCR(new File(""));
 
             // path of your image file
             System.out.print(text);
